@@ -15,7 +15,7 @@ module AbrahamHelper
         controller_name: controller_name,
         action_name: action_name
       )
-      remaining = tours.keys - completed.map(&:tour_name)
+      remaining = tours.keys # - completed.map(&:tour_name)
 
       if remaining.any?
         # Generate the javascript snippet for the next remaining tour
