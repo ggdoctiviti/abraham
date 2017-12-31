@@ -54,7 +54,7 @@
   <% end %>
 
   // Don't start the tour if the user dismissed it once this session
-  //if (!Cookies.get('abraham-<%= controller_name %>-<%= action_name %>-<%= tour_name %>')) {
-  //  tour.start();
-  // }
+  if (!Cookies.get('abraham-<%= controller_name %>-<%= action_name %>-<%= tour_name %>')) {
+    tour.start();
+   }
 </script>
