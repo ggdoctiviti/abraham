@@ -1,5 +1,4 @@
-//= require jquery
-//= require jquery_ujs
+//= require jquery2
 //= require js-cookie
 //= require tether
 //= require shepherd.js.js
